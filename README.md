@@ -1,2 +1,2 @@
 # CS499
-Capstone Project
+Capstone Project 2026
