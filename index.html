@@ -183,7 +183,27 @@
       <div class="artifact-grid">
         <div class="artifact-card">
           <h3>Software Engineering</h3>
-          <p>Demonstrates application design, structure, and maintainability.</p>
+          <p>Demonstrates application design, structure, and maintainability. \n\n Artifact Description
+The artifact I selected for this enhancement is a mobile inventory management application developed in Android Studio during the CS 360 Mobile Architecture and Programming course I took last year. The application was originally designed to allow users to navigate between screens and input inventory data. While the core structure of the application was somewhat functional, several areas lacked proper organization, validation, and maintainability.
+
+ Inclusion explanation 
+I selected this artifact because this was a program that I couldn’t get to run when I was taking the mobile architecture class. By revising this artifact, I can demonstrate improved foundational skills in mobile application development and improvements in software design and engineering. The original implementation contained tightly coupled logic within activity classes and limited input validationEnhancing this artifact allows for the demonstration of key software engineering principles, including modular design, code reusability, and improved user interaction. The artifact shows the ability to analyze an existing codebase, identify weaknesses, and implement structured improvements aligned with industry best practices.
+
+Enhancements 
+This first set of enhancements of the application highlights several key improvements focused on software design and maintainability.
+First, input validation was implemented through a reusable helper class. This reduces repeated logic across activities and ensures consistent validation of user input. The introduction of this component improves both reliability and usability.
+Second, the application structure was improved by separating responsibilities within the code. Activities were modified to focus primarily on user interface interactions, while validation logic was moved to dedicated methods and helper classes. This separation improves maintainability and scalability.
+Third, navigation between activities was refined to create a more consistent and predictable user experience. Clear transitions between screens improve usability and align with expected mobile application behavior. The login layout page was removed as it shared the same task as the main page and the manifest was updated to navigate using then main xml instead of the login xml. This overall improved navigation.
+Finally, comments and documentation were added to clarify the purpose of key sections of code. This improves readability and supports collaboration by making the code easier to understand for other developers.
+
+Outcomes 
+
+ 	The improvements I made in this milestone connect directly to several course outcomes. By reorganizing the app and cleaning up the structure, I was able to follow better software engineering practices and make the code easier to work with. It also allowed the app to actually run without crashing which was a major win. Breaking things into smaller, more modular pieces and adding input validation helped improve both the quality and maintainability of the code. I also strengthened the app’s security by making sure user input is checked properly and by adding basic error handling to prevent invalid or harmful data from affecting the app.
+Process Reflection
+
+ 	Working on these enhancements helped me better understand how important good software design and structure really are. One of the biggest takeaways was how much separating responsibilities (instead of putting everything in one place) makes the code easier to read, manage, and expand later. One challenge I faced was figuring out how to reorganize the code without breaking anything. The original version had a lot of different responsibilities mixed, so refactoring it required careful changes to keep everything working correctly. Another challenge was deciding how much to abstract the code—especially when creating helper methods and validation logic. I had to find a balance between keeping things simple and making the code reusable. Overall, these improvements made the app clearer, more reliable, and easier to use. The updated structure also feels much closer to what you would see in a real-world development environment and sets a strong foundation for future improvements.
+
+</p>
           <a class="btn" href="https://github.com/patpeta/CS499-eportfolio/tree/main/artifacts/software-engineering" target="_blank">View Repo</a>
         </div>
 
